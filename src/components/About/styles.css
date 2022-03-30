@@ -1,0 +1,63 @@
+main {
+    background-color: #212428;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-top: 150px;
+
+}
+
+
+
+
+.texto, .foto {
+    max-width: 100vh;
+    margin: 50px;
+}
+
+.icones  {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    padding-left:2em;
+}
+
+
+
+.redColor{
+    color:#FF014F;
+}
+
+p{
+    margin-top:13px;
+}
+
+.texto h1, h2{
+    color:#F8F8F8;
+}
+
+.texto h1{
+    font-size:40px;
+}
+
+.badge{
+    margin: 0 1em;
+}
+
+.icone_skills {
+    margin: 1em 0;
+}
+
+.icone_skills .lg {
+    margin-right: 2em;
+}
